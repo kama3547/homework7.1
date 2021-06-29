@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".fragmen.ProfileFragment">
+
+
+
+    <View
+    android:layout_width="324dp"
+    android:layout_height="566dp"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="96dp"
+    android:background="@drawable/item_corners" />
+
+    <ImageView
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/prof"
+        android:layout_width="104dp"
+        android:layout_height="104dp"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginStart="140dp"
+        android:id="@+id/tramp_1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="158dp"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingTop="2dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Дональд Трамп"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="190dp"
+        android:layout_height="19dp"
+        android:text="maga@gmail.com" />
+
+    <TextView
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="225dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+996707899433" />
+
+    <TextView
+        android:drawableStart="@drawable/photo"
+        android:textSize="15dp"
+        android:text="  Оставить отзыв  "
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="280dp"
+        android:layout_width="175dp"
+        android:layout_height="23dp"/>
+
+    <ImageView
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/ic_baseline_exit_to_app_24"
+        android:layout_width="22dp"
+        android:layout_height="22dp"/>
+
+    <View
+        android:background="#DAE4EA"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="320dp"
+        android:layout_width="278dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:drawableStart="@drawable/ic_baseline_settings_24"
+        android:textSize="15dp"
+        android:text="  Настройки  "
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="330dp"
+        android:layout_width="175dp"
+        android:layout_height="23dp"/>
+
+    <ImageView
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/ic_baseline_exit_to_app_24"
+        android:layout_width="22dp"
+        android:layout_height="22dp"/>
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/pen" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/ic_baseline_crop_square_24" />
+
+</RelativeLayout>
